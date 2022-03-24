@@ -2,6 +2,7 @@
 
 $(function () {
   colorizeTimeBlocks();
+  init();
 });
 
 //display current time and date elements moment.js
@@ -90,10 +91,14 @@ function colorizeTimeBlocks() {
   }
 }
 
+
+var textInput = $("<textarea>");
+
+
 //save button on click function
 $(".saveBtn").on("click", function () {
 
-
+console.log("saveBtn");
 
 
 });
@@ -101,12 +106,9 @@ $(".saveBtn").on("click", function () {
 
 
 function init() {
-  getworkEvents();
-  getlosses();}
+  // getworkEvents();
 
-var workEvents = JSON.parse(localStorage.getItem("workDay"));
+  }
 
-// if (workEvents) {
-  
-//     planWorkday = workEvents;
-// }
+// var workEvents = JSON.parse(localStorage.getItem("workDay"));
+
