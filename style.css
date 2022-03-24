@@ -1,7 +1,8 @@
 body {
   font-family: 'Roboto Slab', 'Roboto';
-  font-size: 20px;
+  font-size: 1vh;
   line-height: 1;
+  background-color: rgba(112, 128, 144, 0.465);
 }
 
 textarea {
@@ -37,9 +38,12 @@ textarea {
 }
 
 .hour {
-  background-color: #ffffff;
+  background-color: #ffffff98;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  font-weight: bold;
+  font-size: 17px;
 }
 
 .past {
@@ -61,7 +65,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: slateblue;
+  background-color: #0e6fb4d7;
   color: white;
 }
 
@@ -69,3 +73,4 @@ textarea {
   font-size: 20px;
   transition: all 0.5s ease-in-out;
 }
+
