@@ -2,7 +2,7 @@
 
 $(function () {
   // colorizeTimeBlocks();
-  init();
+  
 });
 
 //display current time and date elements moment.js
@@ -27,6 +27,8 @@ var now = new Date().getHours();
 
 $('.hourblock').each(function () {
   var blockHour = parseInt($(this).attr('id').split('-')[1]);
+// console.log(this);
+
   // now = 15
   // blockHour = 9
   let el = ('#block' + blockHour)
@@ -40,7 +42,7 @@ $('.hourblock').each(function () {
     $(el).addClass("future");
   }
 
-console.log(blockHour);
+console.log(el);
 
 })
 
@@ -125,7 +127,7 @@ var textInput = $("<textarea>");
 
 //save button on click function
 $(".saveBtn").on("click", function () {
-
+  
 console.log("saveBtn");
 
 
@@ -135,6 +137,7 @@ console.log("saveBtn");
 
 function init() {
   // getworkEvents();
+console.log("INITIALIZED");
 
   }
 

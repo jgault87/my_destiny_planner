@@ -2,7 +2,8 @@ body {
   font-family: 'Roboto Slab', 'Roboto';
   font-size: 2px;
   line-height: 1;
-  background-color: rgba(112, 128, 144, 0.465);
+  background: -webkit-linear-gradient(to right, #2c3e50, #4ca1af); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
 }
 
 textarea {
