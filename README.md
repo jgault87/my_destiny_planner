@@ -8,7 +8,7 @@ When I enter tasks/notes in the corresponding text block and hit the save button
 
 
 Frameworks/Packages:
-
-jquery
-moment.js
-bootstrap
+		
+	-Jquery 
+	-Moment
+	-Bootstrap
