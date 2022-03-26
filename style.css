@@ -2,7 +2,7 @@ body {
   font-family: 'Roboto Slab', 'Roboto';
   font-size: 2px;
   line-height: 1;
-  background: -webkit-linear-gradient(to right, #2c3e50, #4ca1af); /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #2c3e50, #4ca1af); 
   background: linear-gradient(to right, #2c3e50, #4ca1af);
 }
 
