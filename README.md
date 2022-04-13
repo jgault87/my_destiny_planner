@@ -6,6 +6,8 @@ When I enter tasks/notes in the corresponding text block and hit the save button
 
 ![Watch demo](demogif.gif)
 
+Deployed URL: https://github.com/jgault87/my_destiny_planner
+
 
 Frameworks/Packages:
 		
